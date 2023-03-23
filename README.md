@@ -10,7 +10,7 @@ To use the implementation, run the `testing_pipeline.py` script with the followi
 python3 testing_pipeline.py
 ```
 
-The implementation will generate 1000 random MIP problems and run the SB, SB+ML and PC algorithms on them. The Number of nodes and the time taken for each run is stored and printed.
+The implementation will generate 100 random MIP problems and run the SB, SB+ML and PC algorithms on them. The Number of nodes and the time taken for each run is stored and printed.
 
 ## Files
 
