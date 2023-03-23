@@ -3,7 +3,7 @@ from SB_ML import ML_algorithm
 from SB import SB
 
 # Testing pipeline
-dataset = generate_dataset(1000)
+dataset = generate_dataset(100)
 for problem in dataset:
     ml_nodes, ml_time = ML_algorithm(problem, False)
     sb_nodes, sb_time = SB(problem, False)
